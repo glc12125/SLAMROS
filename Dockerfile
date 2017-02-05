@@ -5,5 +5,5 @@ RUN apt-get update && apt-get install -y \
     ros-indigo-common-tutorials \
     && rm -rf /var/lib/apt/lists/
 
-docker build --tag ros:ros-tutorials .
+CMD [ "roslaunch", "my-ros-app my-ros-app.launch" ]
 
