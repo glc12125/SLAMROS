@@ -1,0 +1,3 @@
+/Users/liangchuangu/Development/dromeSystem/test client/CMakeFiles/rebuild_cache.dir
+/Users/liangchuangu/Development/dromeSystem/test client/CMakeFiles/edit_cache.dir
+/Users/liangchuangu/Development/dromeSystem/test client/CMakeFiles/Client.dir
