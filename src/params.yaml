@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 150
+background_r: 150
+rosdistro: 'indigo
+
+  '
+roslaunch:
+  uris: {host_liangchuan_macbookpro__39510: 'http://liangchuan-MacBookPro:39510/'}
+rosversion: '1.11.20
+
+  '
+run_id: b1e8f1aa-e852-11e6-9df1-28cfe9216105
