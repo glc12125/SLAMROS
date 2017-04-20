@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2533F0EA1EA7483A001765DD /* ControllerAsyncClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2533F0E81EA7483A001765DD /* ControllerAsyncClient.cpp */; };
 		3A42F6481E9F65FA00DA6A5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A42F6471E9F65FA00DA6A5F /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2533F0E81EA7483A001765DD /* ControllerAsyncClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControllerAsyncClient.cpp; sourceTree = "<group>"; };
+		2533F0E91EA7483A001765DD /* ControllerAsyncClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerAsyncClient.h; sourceTree = "<group>"; };
 		3A42F6441E9F65FA00DA6A5F /* asio.sync.fixedlength */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = asio.sync.fixedlength; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A42F6471E9F65FA00DA6A5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3A42F6471E9F65FA00DA6A5F /* main.cpp */,
+				2533F0E81EA7483A001765DD /* ControllerAsyncClient.cpp */,
+				2533F0E91EA7483A001765DD /* ControllerAsyncClient.h */,
 			);
 			path = asio.sync.fixedlength;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A42F6481E9F65FA00DA6A5F /* main.cpp in Sources */,
+				2533F0EA1EA7483A001765DD /* ControllerAsyncClient.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +223,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.62.0/lib;
 				OTHER_LDFLAGS = (
 					"-lboost_system-mt",
 					"-lboost_thread-mt",
@@ -230,7 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.62.0/lib;
 				OTHER_LDFLAGS = (
 					"-lboost_system-mt",
 					"-lboost_thread-mt",
@@ -258,6 +264,7 @@
 				3A42F64D1E9F65FA00DA6A5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
